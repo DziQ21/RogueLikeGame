@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1015595689272748299}
   - component: {fileID: 9071896027709657980}
+  - component: {fileID: 1189334470312865755}
   m_Layer: 0
   m_Name: cegla 2 (1)
   m_TagString: Untagged
@@ -80,6 +81,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1189334470312865755
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2346231439638923794}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 1.1995565, y: 0.1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 0.1}
+  m_EdgeRadius: 0
 --- !u!1 &3696595608056640937
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405656960921618086}
   - component: {fileID: 4123780138657533053}
+  - component: {fileID: 4516267925878128918}
   m_Layer: 0
   m_Name: cegla 2 (3)
   m_TagString: Untagged
@@ -195,6 +223,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4516267925878128918
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4087825310779102740}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.7045666, y: 0.1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 0.1}
+  m_EdgeRadius: 0
 --- !u!1 &6929973576223218984
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,6 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5986974110940919138}
   - component: {fileID: 7733857308682105079}
+  - component: {fileID: 4244034367965900115}
   m_Layer: 0
   m_Name: cegla 2 (2)
   m_TagString: Untagged
@@ -275,6 +330,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4244034367965900115
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6929973576223218984}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.1, y: 0.9108254}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.9}
+  m_EdgeRadius: 0
 --- !u!1 &7003911078188911556
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4390420122822944836}
   - component: {fileID: 5561408563326935874}
+  - component: {fileID: 9124567808919660389}
   m_Layer: 0
   m_Name: cegla 2
   m_TagString: Untagged
@@ -355,6 +437,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &9124567808919660389
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7003911078188911556}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.1, y: 0.77608323}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.75}
+  m_EdgeRadius: 0
 --- !u!1001 &795290953031168975
 PrefabInstance:
   m_ObjectHideFlags: 0
