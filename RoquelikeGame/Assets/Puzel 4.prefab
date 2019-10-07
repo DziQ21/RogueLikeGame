@@ -269,6 +269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7722264038328402976}
+  - component: {fileID: 377608540768073483}
   m_Layer: 0
   m_Name: Puzel 4
   m_TagString: Untagged
@@ -365,6 +366,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &377608540768073483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2907500651885372842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2df8376d38d7b4e956dc7d0efafa6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
 --- !u!61 &886227291073953488
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -676,6 +690,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (17)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -731,11 +750,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (17)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &1027789698914714395 stripped
@@ -751,6 +765,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -806,11 +825,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (9)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &1026051341929186925 stripped
@@ -826,6 +840,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -891,11 +910,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -931,6 +945,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (13)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -986,11 +1005,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (13)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &859616448631199399 stripped
@@ -1006,6 +1020,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1071,11 +1090,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -1111,6 +1125,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1166,26 +1185,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 2.8442664
-      objectReference: {fileID: 0}
     - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -1206,6 +1205,21 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2.8
       objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.8442664
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
 --- !u!4 &6625734006422695401 stripped
@@ -1221,6 +1235,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1276,11 +1295,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (10)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &240396672517001625 stripped
@@ -1296,6 +1310,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1562275107910488090, guid: b78dba72668fecf46a69ff395ddac7b4,
+        type: 3}
+      propertyPath: m_Name
+      value: krol-pixilart
+      objectReference: {fileID: 0}
     - target: {fileID: 1045094809380752459, guid: b78dba72668fecf46a69ff395ddac7b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1351,11 +1370,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1562275107910488090, guid: b78dba72668fecf46a69ff395ddac7b4,
-        type: 3}
-      propertyPath: m_Name
-      value: krol-pixilart
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b78dba72668fecf46a69ff395ddac7b4, type: 3}
 --- !u!4 &40663970572451009 stripped
@@ -1371,6 +1385,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (11)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1436,11 +1455,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -1476,6 +1490,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1531,21 +1550,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.24836616
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.4256538
-      objectReference: {fileID: 0}
     - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -1565,6 +1569,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.24836616
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.4256538
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
@@ -1677,6 +1691,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1741,11 +1760,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (15)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -1859,15 +1873,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce01d449a8e91274682a6f3975251bfb, type: 3}
---- !u!4 &1232532642255981026 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1516607033660509015}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2489914701297807710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1516607033660509015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1232532642255981026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
     type: 3}
   m_PrefabInstance: {fileID: 1516607033660509015}
   m_PrefabAsset: {fileID: 0}
@@ -1878,6 +1892,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (22)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1942,11 +1961,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (22)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -2060,15 +2074,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce01d449a8e91274682a6f3975251bfb, type: 3}
---- !u!1 &2401552348831788054 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1645468725615187487}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1351967132988118186 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1645468725615187487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2401552348831788054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
     type: 3}
   m_PrefabInstance: {fileID: 1645468725615187487}
   m_PrefabAsset: {fileID: 0}
@@ -2079,6 +2093,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (18)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2144,11 +2163,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (18)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2184,6 +2198,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (16)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2238,11 +2257,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (16)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
@@ -2355,6 +2369,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2409,11 +2428,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
@@ -2507,15 +2521,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce01d449a8e91274682a6f3975251bfb, type: 3}
---- !u!1 &1670304910217772875 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
-    type: 3}
-  m_PrefabInstance: {fileID: 2355377391071626562}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2646212938515597303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2355377391071626562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1670304910217772875 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
     type: 3}
   m_PrefabInstance: {fileID: 2355377391071626562}
   m_PrefabAsset: {fileID: 0}
@@ -2526,6 +2540,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (14)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2591,11 +2610,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (14)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2631,6 +2645,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2686,11 +2705,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (15)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &3187722299102585367 stripped
@@ -2706,6 +2720,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (23)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2771,11 +2790,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (23)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2811,6 +2825,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (25)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2875,11 +2894,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (25)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -3084,15 +3098,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce01d449a8e91274682a6f3975251bfb, type: 3}
---- !u!4 &2373226926719272385 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
-    type: 3}
-  m_PrefabInstance: {fileID: 2664339562921379700}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1402946609098243453 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2664339562921379700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2373226926719272385 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
     type: 3}
   m_PrefabInstance: {fileID: 2664339562921379700}
   m_PrefabAsset: {fileID: 0}
@@ -3103,6 +3117,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3167,11 +3186,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -3304,6 +3318,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 6328733072149562728, guid: bc229898ffc9f414ba9a7221389a145a,
+        type: 3}
+      propertyPath: m_Name
+      value: skrzynia (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4788921207268212604, guid: bc229898ffc9f414ba9a7221389a145a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3359,11 +3378,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6328733072149562728, guid: bc229898ffc9f414ba9a7221389a145a,
-        type: 3}
-      propertyPath: m_Name
-      value: skrzynia (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1427630197649070864, guid: bc229898ffc9f414ba9a7221389a145a,
         type: 3}
       propertyPath: m_SortingOrder
@@ -3384,6 +3398,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3439,10 +3458,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
-      propertyPath: m_Name
-      value: rzeka (6)
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.0623214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
@@ -3453,16 +3477,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 1.0623214
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 1.0623214
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
@@ -3479,6 +3493,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3544,11 +3563,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -3584,6 +3598,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (21)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3648,11 +3667,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (21)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -3785,6 +3799,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3840,21 +3859,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.24836616
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.4256538
-      objectReference: {fileID: 0}
     - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -3875,6 +3879,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1.4
       objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.24836616
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.4256538
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
 --- !u!4 &7374015692011051368 stripped
@@ -3890,6 +3904,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (11)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3945,11 +3964,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (11)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &4610518315586997907 stripped
@@ -3965,6 +3979,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (14)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4019,11 +4038,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
@@ -4232,6 +4246,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 385006894140719844, guid: 21e172c7a0762e549bc9645da18ae892,
+        type: 3}
+      propertyPath: m_Name
+      value: rycerz
+      objectReference: {fileID: 0}
     - target: {fileID: 7321443723994378695, guid: 21e172c7a0762e549bc9645da18ae892,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4287,11 +4306,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 385006894140719844, guid: 21e172c7a0762e549bc9645da18ae892,
-        type: 3}
-      propertyPath: m_Name
-      value: rycerz
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21e172c7a0762e549bc9645da18ae892, type: 3}
 --- !u!4 &6751628725278010352 stripped
@@ -4307,6 +4321,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4362,11 +4381,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
 --- !u!4 &7710863843877020415 stripped
@@ -4382,6 +4396,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (19)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4447,11 +4466,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (19)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -4487,6 +4501,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4542,11 +4561,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &3666524473263114122 stripped
@@ -4562,6 +4576,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4617,11 +4636,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0b27cac787d8ff4d8faabeaf2ac9de1, type: 3}
 --- !u!4 &8337381940552106311 stripped
@@ -4637,6 +4651,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4692,26 +4711,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 2.0307333
-      objectReference: {fileID: 0}
     - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -4732,6 +4731,21 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.0307333
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
 --- !u!4 &1555132610792388657 stripped
@@ -4747,6 +4761,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4812,11 +4831,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -4852,6 +4866,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4917,11 +4936,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -4957,6 +4971,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5022,11 +5041,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -5062,6 +5076,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5126,11 +5145,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -5242,6 +5256,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (24)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5307,11 +5326,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (24)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -5347,6 +5361,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7351552739312936407, guid: eb4242d2b2be9424382e5ae92912f3f3,
+        type: 3}
+      propertyPath: m_Name
+      value: mostek
+      objectReference: {fileID: 0}
     - target: {fileID: 5942641036771192986, guid: eb4242d2b2be9424382e5ae92912f3f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5402,11 +5421,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7351552739312936407, guid: eb4242d2b2be9424382e5ae92912f3f3,
-        type: 3}
-      propertyPath: m_Name
-      value: mostek
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb4242d2b2be9424382e5ae92912f3f3, type: 3}
 --- !u!4 &2166550037941656907 stripped
@@ -5422,6 +5436,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5486,11 +5505,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (5)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -5604,15 +5618,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce01d449a8e91274682a6f3975251bfb, type: 3}
---- !u!1 &8820506414867838375 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
-    type: 3}
-  m_PrefabInstance: {fileID: 5614121681767436206}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5332149856085298459 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5614121681767436206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8820506414867838375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
     type: 3}
   m_PrefabInstance: {fileID: 5614121681767436206}
   m_PrefabAsset: {fileID: 0}
@@ -5700,15 +5714,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce01d449a8e91274682a6f3975251bfb, type: 3}
---- !u!4 &6138551638632575744 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
-    type: 3}
-  m_PrefabInstance: {fileID: 5847435755183042997}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7397063310581631932 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5847435755183042997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6138551638632575744 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
     type: 3}
   m_PrefabInstance: {fileID: 5847435755183042997}
   m_PrefabAsset: {fileID: 0}
@@ -5719,6 +5733,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 385006894140719844, guid: 21e172c7a0762e549bc9645da18ae892,
+        type: 3}
+      propertyPath: m_Name
+      value: rycerz (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7321443723994378695, guid: 21e172c7a0762e549bc9645da18ae892,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5774,11 +5793,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 385006894140719844, guid: 21e172c7a0762e549bc9645da18ae892,
-        type: 3}
-      propertyPath: m_Name
-      value: rycerz (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21e172c7a0762e549bc9645da18ae892, type: 3}
 --- !u!4 &3810716549368635238 stripped
@@ -5794,6 +5808,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (17)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5859,11 +5878,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (17)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -5899,6 +5913,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (20)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5964,11 +5983,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (20)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -6004,6 +6018,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6059,10 +6078,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
-      propertyPath: m_Name
-      value: rzeka (7)
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.3789997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.31
       objectReference: {fileID: 0}
     - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
@@ -6073,16 +6097,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 1.3789997
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 1.3789997
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.31
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
@@ -6099,6 +6113,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (13)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6164,11 +6183,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (13)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -6204,6 +6218,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6259,16 +6278,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 2.9329052
-      objectReference: {fileID: 0}
     - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -6278,6 +6287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.9329052
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
@@ -6294,6 +6308,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6349,11 +6368,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (12)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &7790819017119275076 stripped
@@ -6369,6 +6383,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6429,10 +6448,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 10.000001
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
-      propertyPath: m_Name
-      value: rzeka (4)
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 3.3062124
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.99
       objectReference: {fileID: 0}
     - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
@@ -6443,16 +6467,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 3.3062124
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 3.3062124
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994060916742394200, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 2.99
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffb2e4fc723cf904da66e93125442315, type: 3}
@@ -6469,6 +6483,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 8058985948420335623, guid: 71b44f1dee2874f4f9d6978271048b5e,
+        type: 3}
+      propertyPath: m_Name
+      value: las i wilkolaki
+      objectReference: {fileID: 0}
     - target: {fileID: 7827340252025450851, guid: 71b44f1dee2874f4f9d6978271048b5e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6524,11 +6543,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8058985948420335623, guid: 71b44f1dee2874f4f9d6978271048b5e,
-        type: 3}
-      propertyPath: m_Name
-      value: las i wilkolaki
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71b44f1dee2874f4f9d6978271048b5e, type: 3}
 --- !u!4 &843953463998064261 stripped
@@ -6544,6 +6558,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6609,11 +6628,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -6649,6 +6663,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6703,11 +6722,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
@@ -6820,6 +6834,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 6328733072149562728, guid: bc229898ffc9f414ba9a7221389a145a,
+        type: 3}
+      propertyPath: m_Name
+      value: skrzynia (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4788921207268212604, guid: bc229898ffc9f414ba9a7221389a145a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6874,11 +6893,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6328733072149562728, guid: bc229898ffc9f414ba9a7221389a145a,
-        type: 3}
-      propertyPath: m_Name
-      value: skrzynia (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1427630197649070864, guid: bc229898ffc9f414ba9a7221389a145a,
         type: 3}
@@ -7073,15 +7087,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce01d449a8e91274682a6f3975251bfb, type: 3}
---- !u!1 &5176931824980089053 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
-    type: 3}
-  m_PrefabInstance: {fileID: 8095728466379088596}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8380928160757669985 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 294642623720473269, guid: ce01d449a8e91274682a6f3975251bfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 8095728466379088596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5176931824980089053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3999731060913043977, guid: ce01d449a8e91274682a6f3975251bfb,
     type: 3}
   m_PrefabInstance: {fileID: 8095728466379088596}
   m_PrefabAsset: {fileID: 0}
@@ -7092,6 +7106,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (16)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7157,11 +7176,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (16)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -7197,6 +7211,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7251,11 +7270,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
@@ -7368,6 +7382,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7351552739312936407, guid: eb4242d2b2be9424382e5ae92912f3f3,
+        type: 3}
+      propertyPath: m_Name
+      value: mostek (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5942641036771192986, guid: eb4242d2b2be9424382e5ae92912f3f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7423,11 +7442,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7351552739312936407, guid: eb4242d2b2be9424382e5ae92912f3f3,
-        type: 3}
-      propertyPath: m_Name
-      value: mostek (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 6010746374109275770, guid: eb4242d2b2be9424382e5ae92912f3f3,
         type: 3}
       propertyPath: m_SortingOrder
@@ -7448,6 +7462,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7512,11 +7531,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (8)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
