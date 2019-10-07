@@ -409,6 +409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7722264038328402976}
+  - component: {fileID: -8016717493404296169}
   m_Layer: 0
   m_Name: Puzel 2
   m_TagString: Untagged
@@ -463,6 +464,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8016717493404296169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2907500651885372842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2df8376d38d7b4e956dc7d0efafa6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
 --- !u!1 &3567825176958366358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,6 +1338,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (19)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1379,11 +1398,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (19)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &297146674080889600 stripped
@@ -1399,6 +1413,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1453,11 +1472,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
@@ -1536,15 +1550,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae4c1c9ef8d76dd43975eec6fcfbffe2, type: 3}
---- !u!4 &3553789069120662676 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3024224905643072945, guid: ae4c1c9ef8d76dd43975eec6fcfbffe2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1777141550382641445}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2681684516690910530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4440246931635186791, guid: ae4c1c9ef8d76dd43975eec6fcfbffe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1777141550382641445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3553789069120662676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3024224905643072945, guid: ae4c1c9ef8d76dd43975eec6fcfbffe2,
     type: 3}
   m_PrefabInstance: {fileID: 1777141550382641445}
   m_PrefabAsset: {fileID: 0}
@@ -1555,6 +1569,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (13)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1610,11 +1629,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (13)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &1669437627983403692 stripped
@@ -1630,6 +1644,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (17)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1685,11 +1704,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (17)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &1717170343351562338 stripped
@@ -1705,6 +1719,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 385006894140719844, guid: 21e172c7a0762e549bc9645da18ae892,
+        type: 3}
+      propertyPath: m_Name
+      value: rycerz
+      objectReference: {fileID: 0}
     - target: {fileID: 7321443723994378695, guid: 21e172c7a0762e549bc9645da18ae892,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1760,11 +1779,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 385006894140719844, guid: 21e172c7a0762e549bc9645da18ae892,
-        type: 3}
-      propertyPath: m_Name
-      value: rycerz
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21e172c7a0762e549bc9645da18ae892, type: 3}
 --- !u!4 &8717246089112072009 stripped
@@ -1780,6 +1794,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1835,11 +1854,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (15)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &3185885701407540119 stripped
@@ -1855,6 +1869,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1910,11 +1929,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (9)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &3409900377353284704 stripped
@@ -1930,6 +1944,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1985,11 +2004,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (12)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &2599301235155816981 stripped
@@ -2005,6 +2019,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (11)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2060,11 +2079,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (11)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &2642659420617641645 stripped
@@ -2080,6 +2094,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2135,11 +2154,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (8)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &3973532579409548146 stripped
@@ -2155,6 +2169,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (18)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2210,11 +2229,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (18)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &5598283389648003472 stripped
@@ -2230,6 +2244,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2285,11 +2304,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &6025418395528152037 stripped
@@ -2305,6 +2319,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (16)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2360,11 +2379,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (16)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &5936209100229600322 stripped
@@ -2380,6 +2394,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2435,11 +2454,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (6)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &7023054432276012517 stripped
@@ -2455,6 +2469,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2510,11 +2529,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (10)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &9010628584694431773 stripped
@@ -2530,6 +2544,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (14)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2584,11 +2603,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
@@ -2680,6 +2694,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 5524171421340530450, guid: b86cb4bc69d685a4597fb53162609db2,
+        type: 3}
+      propertyPath: m_Name
+      value: pole
+      objectReference: {fileID: 0}
     - target: {fileID: 6396896345911908162, guid: b86cb4bc69d685a4597fb53162609db2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2734,11 +2753,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5524171421340530450, guid: b86cb4bc69d685a4597fb53162609db2,
-        type: 3}
-      propertyPath: m_Name
-      value: pole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b86cb4bc69d685a4597fb53162609db2, type: 3}

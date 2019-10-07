@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class HPScript : MonoBehaviour
 {
-    public int hP;
+    public int hP=100;
     public UnityEvent deathevent;
     // Start is called before the first frame update
     public void ReciveDamage(int damage)
