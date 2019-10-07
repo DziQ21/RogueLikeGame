@@ -6,7 +6,7 @@ public class HPScript : ScriptableObject
 {
     public int hP;
     // Start is called before the first frame update
-    public void dealDamage()
+    public void reciveDamage()
     {
 
     }
