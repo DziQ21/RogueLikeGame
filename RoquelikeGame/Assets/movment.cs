@@ -20,7 +20,13 @@ public class movment : MonoBehaviour
          y = Input.GetAxis("Vertical") * speed;
          x = Input.GetAxis("Horizontal") * speed;
 
-        GetComponent<Rigidbody2D>().MovePosition(new Vector2(x+ transform.position.x, y+ transform.position.y));//= new Vector3(x + transform.position.x, y + transform.position.y, 0);
+        GetComponent<Rigidbody2D>().MovePosition(new Vector2(x+ transform.position.x, y+ transform.position.y));
+        if(Input.GetMouseButtonDown(3))
+        {
+            Vector2 playerPosition = new Vector2(Screen.width, Screen.height);
+            Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            GetComponent<mechanikaWalki>().MakeAttack(Vector2.Angle(playerPosition,mousePosition));
+        }
     }
 
 }
