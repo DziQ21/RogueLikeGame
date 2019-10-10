@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1045094809380752459}
   - component: {fileID: 4787468458712639782}
   - component: {fileID: -2005997435143652744}
+  - component: {fileID: 944589622100019152}
   m_Layer: 0
   m_Name: krol-pixilart
   m_TagString: Untagged
@@ -97,3 +98,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.06
+--- !u!114 &944589622100019152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562275107910488090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db97f8a323b030446af01c7cf4489977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hP: 100
+  deathevent:
+    m_PersistentCalls:
+      m_Calls: []

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4345754780348036679}
   - component: {fileID: 3498774865518137419}
   - component: {fileID: 9049148622665328551}
+  - component: {fileID: 8699414803149493181}
   m_Layer: 0
   m_Name: zakonnik
   m_TagString: Untagged
@@ -97,3 +98,19 @@ CircleCollider2D:
   m_Offset: {x: -0.000000059604645, y: 0}
   serializedVersion: 2
   m_Radius: 0.06
+--- !u!114 &8699414803149493181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471641499424810841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db97f8a323b030446af01c7cf4489977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hP: 100
+  deathevent:
+    m_PersistentCalls:
+      m_Calls: []
