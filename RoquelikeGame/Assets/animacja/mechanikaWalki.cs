@@ -6,8 +6,8 @@ using UnityEngine;
 public class mechanikaWalki : MonoBehaviour
 {
 
-	public float wywolanie = 5.0f;
-	public float licznikBartka = 0.0f;
+	private float wywolanie = 5.0f;
+	private float licznikBartka = 0.0f;
  // Start is called before the first frame update
     void Start()
     {
