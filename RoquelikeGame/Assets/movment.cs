@@ -7,10 +7,12 @@ public class movment : MonoBehaviour
     float x;
     public float speed;
     float y;
+    public mechanikaWalki skryptBroni=null;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (skryptBroni ==null )
+            setSkryptBroni();
     }
 
     // Update is called once per frame
@@ -27,8 +29,13 @@ public class movment : MonoBehaviour
             Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
            // Debug.Log(((-Mathf.Atan2(playerPosition.x - mousePosition.x, playerPosition.y - mousePosition.y) * Mathf.Rad2Deg-90)+360)%360 + " "+playerPosition+" "+ mousePosition);
             //Debug.Log(Vector2.SignedAngle(Vector2.zero, Vector2.one));
-            GetComponent<mechanikaWalki>().MakeAttack((-Mathf.Atan2(playerPosition.x - mousePosition.x, playerPosition.y - mousePosition.y) * Mathf.Rad2Deg  + 270) % 360);
+            skryptBroni.MakeAttack((-Mathf.Atan2(playerPosition.x - mousePosition.x, playerPosition.y - mousePosition.y) * Mathf.Rad2Deg  + 270) % 360);
         }
+    }
+
+    void setSkryptBroni()
+    {
+
     }
 
 }

@@ -6,11 +6,16 @@ public class Quest : MonoBehaviour
 {
     public TypesOfQuests typeofquest;
     public GameObject target;
-    
-    
+
+    public Quest(GameObject target)
+    {
+        this.target = target;
+        
+    }
+
     public enum TypesOfQuests
     {
-        Kill,
-        Destroy
+
+        KillorDestroy
     }
 }

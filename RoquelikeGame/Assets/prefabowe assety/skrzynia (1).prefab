@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4788921207268212604}
   - component: {fileID: 1427630197649070864}
   - component: {fileID: 495137866143161098}
+  - component: {fileID: 873647204596649329}
   m_Layer: 0
   m_Name: skrzynia (1)
   m_TagString: Untagged
@@ -107,3 +108,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.11}
   m_EdgeRadius: 0
+--- !u!114 &873647204596649329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6328733072149562728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db97f8a323b030446af01c7cf4489977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hP: 100
+  deathevent:
+    m_PersistentCalls:
+      m_Calls: []

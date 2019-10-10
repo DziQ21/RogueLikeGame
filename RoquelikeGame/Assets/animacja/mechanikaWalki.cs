@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -50,5 +51,10 @@ public class mechanikaWalki : MonoBehaviour
 //}
 	//pom2 = pom2 + pom2;
 	//}
+    }
+
+    internal void MakeAttack(float v)
+    {
+        throw new NotImplementedException();
     }
 }

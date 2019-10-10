@@ -17,7 +17,7 @@ public class generatormapy : MonoBehaviour
             {
                 int randomNumber = Random.Range(0, tablicaMap.Count);
                 Instantiate(tablicaMap[randomNumber], new Vector3(62.5f * j, 32.5f * i, 0f), Quaternion.identity);
-                //Questnemager.AddQuests(tablicaMap[randomNumber].GetComponent<QuestList>().list);
+                Questnemager.AddQuests(tablicaMap[randomNumber].GetComponent<QuestList>().list);
 
             }
     }
