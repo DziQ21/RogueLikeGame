@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3510855576372703482}
   - component: {fileID: 748612844416942709}
   - component: {fileID: 2036170548925897959}
+  - component: {fileID: 605196435703132808}
   m_Layer: 0
   m_Name: mag
   m_TagString: Untagged
@@ -97,3 +98,19 @@ CircleCollider2D:
   m_Offset: {x: 0.00000023841858, y: 0.000000014901161}
   serializedVersion: 2
   m_Radius: 0.06
+--- !u!114 &605196435703132808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4002899522838848818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db97f8a323b030446af01c7cf4489977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hP: 100
+  deathevent:
+    m_PersistentCalls:
+      m_Calls: []

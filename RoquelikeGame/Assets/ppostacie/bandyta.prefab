@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5205040972951202454}
   - component: {fileID: 8665131852968667778}
   - component: {fileID: 3614174656661831882}
+  - component: {fileID: 6767708616685038121}
   m_Layer: 0
   m_Name: bandyta
   m_TagString: Untagged
@@ -97,3 +98,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.06
+--- !u!114 &6767708616685038121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221714696369474131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db97f8a323b030446af01c7cf4489977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hP: 100
+  deathevent:
+    m_PersistentCalls:
+      m_Calls: []
