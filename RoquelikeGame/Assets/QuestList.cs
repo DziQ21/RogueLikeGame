@@ -12,7 +12,7 @@ public class QuestList : MonoBehaviour
     {
         for(int i = 0; i < KillableAndDestuctable.Count; i++)
         {
-            list.Add(new Quest(KillableAndDestuctable[i]));
+            list.Add((Quest)ScriptableObject.CreateInstance("Quest"));
         }
     }
     // Update is called once per frame

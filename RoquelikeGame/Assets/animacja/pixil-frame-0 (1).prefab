@@ -93,5 +93,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04e5b748e15da74d8fe994b205edd0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wywolanie: 1
+  wywolanie: 2
   licznikBartka: 0

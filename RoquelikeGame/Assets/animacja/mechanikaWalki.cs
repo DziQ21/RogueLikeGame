@@ -22,7 +22,7 @@ public class mechanikaWalki : MonoBehaviour
 
     internal void MakeAttack(float v)
    {
-        throw new NotImplementedException();
+    
 
 	if (licznikBartka < wywolanie) {
        		transform.rotation = Quaternion.Euler(0,0,v);
