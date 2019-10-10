@@ -13,6 +13,8 @@ public class mechanikaWalki : MonoBehaviour
 	bool t = true;
 	int counter = 0;
 
+public float wywolanie = 5.0f;
+public float licznikBartka = 0.0f;
  // Start is called before the first frame update
     void Start()
     {
@@ -32,10 +34,11 @@ public class mechanikaWalki : MonoBehaviour
 //10 += Time.deltaTime * 10;
 
 	// to ma byc raz uzyte wiec ten patent jest na chwile tylko, jutro pomysle
-	if (t) {
-        transform.rotation = Quaternion.Euler(0,0,stopnieRadzika);
-	t=false;
-	}
+	//if (t) {
+
+
+		//t=false;
+	//}
 
 
 
@@ -43,10 +46,10 @@ public class mechanikaWalki : MonoBehaviour
 	//if (pom2 < pom) {
 
 	//if (counter <20) {
-        	Vector3 to = new Vector3(0, 0, degrees* predkosc);
-	counter = counter + counter;
+        	//Vector3 to = new Vector3(0, 0, degrees* predkosc);
+	//counter = counter + counter;
 
-	transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, to, 0.01f);
+	//transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, to, 0.01f);
 	//transform.eulerAnges = Vector3(transform.rotation.eulerAngles, new Vector3(0, 0, degrees* predkosc),0.01f);
 //}
 	//pom2 = pom2 + pom2;
@@ -54,7 +57,14 @@ public class mechanikaWalki : MonoBehaviour
     }
 
     internal void MakeAttack(float v)
-    {
+   {
         throw new NotImplementedException();
+
+	if (licznikBartka < wywolanie) {
+       		transform.rotation = Quaternion.Euler(0,0,v);
+		v+=5;
+		licznikBartka += 0.1f;
+	}
+
     }
 }
