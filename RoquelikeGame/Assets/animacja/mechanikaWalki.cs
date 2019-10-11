@@ -6,8 +6,10 @@ using UnityEngine;
 public class mechanikaWalki : MonoBehaviour
 {
 
-	private float wywolanie = 5.0f;
-	private float licznikBartka = 0.0f;
+	public float wywolanie = 5.0f;
+	public float licznikBartka = 0.0f;
+	private bool t = false;
+	private float kat;
  // Start is called before the first frame update
     void Start()
     {
@@ -17,18 +19,26 @@ public class mechanikaWalki : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+	//if ((licznikBartka >= wywolanie) || !t) {
+	//	wywolanie = 5.0f;
+	//	licznikBartka = 0.0f;
+	//	
+	//}
+
+
+	if ((licznikBartka < wywolanie) && t) {
+       		transform.rotation = Quaternion.Euler(0,0,kat);
+		kat+=5;
+		licznikBartka += 0.1f;
+	}
 
     }
 
     internal void MakeAttack(float v)
    {
-    
-
-	if (licznikBartka < wywolanie) {
-       		transform.rotation = Quaternion.Euler(0,0,v);
-		v+=5;
-		licznikBartka += 0.1f;
-	}
-
+       	kat = v;
+	t = true;
+	wywolanie = 5.0f;
+	licznikBartka = 0.0f;
     }
 }
