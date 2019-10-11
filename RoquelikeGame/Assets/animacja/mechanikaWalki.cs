@@ -11,6 +11,7 @@ public class mechanikaWalki : MonoBehaviour
 	private bool t = false;			 //ono chyba jest niepotrzebne
 	private float kat;
 	public GameObject gameWeapon;
+	
  // Start is called before the first frame update
     void Start()
     {
@@ -38,10 +39,14 @@ public class mechanikaWalki : MonoBehaviour
 	//	gameWeapon.SetActive (true);
 	//}
 
-	// void OnCollisionEnter(Collision collision)
-   	// {
-	//	ReceiveDamage(5);
-	//}
+	 void OnCollisionEnter(Collision collision)
+   	 {
+		HPScript a = collision.gameObject.GetComponent<HPScript>();
+		
+		if (a != null) {
+			a.ReciveDamage(5);
+		}
+	}
     }
 
     internal void MakeAttack(float v)
