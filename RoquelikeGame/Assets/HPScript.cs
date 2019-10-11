@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class HPScript : MonoBehaviour
-{
+{   
+    
     public int hP=100;
     public UnityEvent deathevent;
     // Start is called before the first frame update
@@ -18,6 +19,7 @@ public class HPScript : MonoBehaviour
     void Die()
     {
         deathevent.Invoke();
+        Questnemager.instance.GameObjectDied(this.gameObject);
         Destroy(this.gameObject);
     }
 }
