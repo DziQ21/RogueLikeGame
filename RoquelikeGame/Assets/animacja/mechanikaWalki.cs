@@ -11,6 +11,7 @@ public class mechanikaWalki : MonoBehaviour
 	private bool t = false;			 //ono chyba jest niepotrzebne
 	private float kat;
 	public GameObject gameWeapon;
+	public int DMG;
 	
  // Start is called before the first frame update
     void Start()
@@ -44,7 +45,7 @@ public class mechanikaWalki : MonoBehaviour
 		HPScript a = collision.gameObject.GetComponent<HPScript>();
 		
 		if (a != null) {
-			a.ReciveDamage(5);
+			a.ReciveDamage(DMG);
 		}
 	}
     }
