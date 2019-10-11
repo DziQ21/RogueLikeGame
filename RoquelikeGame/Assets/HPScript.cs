@@ -18,6 +18,7 @@ public class HPScript : MonoBehaviour
     }
     void Die()
     {
+        Debug.Log("zdycha");
         deathevent.Invoke();
         Questnemager.instance.GameObjectDied(this.gameObject);
         Destroy(this.gameObject);
