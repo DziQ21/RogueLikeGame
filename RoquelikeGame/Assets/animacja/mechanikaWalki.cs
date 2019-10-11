@@ -37,17 +37,17 @@ public class mechanikaWalki : MonoBehaviour
 	//	kat-=5;
 	//	licznikBartka += 0.1f;
 	//	gameWeapon.SetActive (true);
-	//}
+	}
 
-	 void OnCollisionEnter(Collision collision)
+	private void OnCollisionEnter2D(Collision2D collision)
    	 {
 		HPScript a = collision.gameObject.GetComponent<HPScript>();
-		
+        Debug.Log("dup");
 		if (a != null) {
 			a.ReciveDamage(5);
 		}
 	}
-    }
+    
 
     internal void MakeAttack(float v)
    {
