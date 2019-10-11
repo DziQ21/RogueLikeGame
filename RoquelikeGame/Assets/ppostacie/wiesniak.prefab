@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8925150191564146278}
   - component: {fileID: 6720073503546814870}
   - component: {fileID: 8126992871480167901}
+  - component: {fileID: -7355739415172442681}
   m_Layer: 0
   m_Name: wiesniak
   m_TagString: Untagged
@@ -124,3 +125,24 @@ MonoBehaviour:
   deathevent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!50 &-7355739415172442681
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8321987888851065171}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
