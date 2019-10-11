@@ -6,28 +6,28 @@ using UnityEngine;
 public class mechanikaWalki : MonoBehaviour
 {
 
-	public float wywolanie = 2.5f;
-	public float licznikBartka = 0.0f;
+	public float wywolanie; // = 2.5f;
+	public float licznikBartka; // = 0.0f;
 	private bool t = false;			 //ono chyba jest niepotrzebne
 	private float kat;
 	public GameObject gameWeapon;
  // Start is called before the first frame update
     void Start()
     {
-	  
+	  gameWeapon.SetActive (false);
  }
 
     // Update is called once per frame
     void Update()
     {
 	if (licznikBartka >= wywolanie) {
-		gameWeapon.SetActive (true);
+		gameWeapon.SetActive (false);
 	}
 
 	if ((licznikBartka < wywolanie) && t) {
        		transform.rotation = Quaternion.Euler(0,0,kat);
 		kat+=5;
-		licznikBartka += 0.1f;
+		licznikBartka += 0.3f;
 		gameWeapon.SetActive (true);
 	}
 
@@ -38,14 +38,17 @@ public class mechanikaWalki : MonoBehaviour
 	//	gameWeapon.SetActive (true);
 	//}
 
-
+	// void OnCollisionEnter(Collision collision)
+   	// {
+	//	ReceiveDamage(5);
+	//}
     }
 
     internal void MakeAttack(float v)
    {
-       	kat = v + 160;
+       	kat = v + 195;
 	t = true;
-	wywolanie = 2.5f;
+	wywolanie = 6.4f;
 	licznikBartka = 0.0f;
 	gameWeapon.SetActive (true);
   }
