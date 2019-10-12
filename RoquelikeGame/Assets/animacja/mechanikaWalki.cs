@@ -12,8 +12,9 @@ public class mechanikaWalki : MonoBehaviour
 	private float kat;
 	public GameObject gameWeapon;
 	public int DMG;
-	
- // Start is called before the first frame update
+    private float timeStamp = 1.0f;
+
+    // Start is called before the first frame update
     void Start()
     {
 	  gameWeapon.SetActive (false);
@@ -24,21 +25,34 @@ public class mechanikaWalki : MonoBehaviour
     {
 	if (licznikBartka >= wywolanie) {
 		gameWeapon.SetActive (false);
-	}
+            
+        }
 
-	if ((licznikBartka < wywolanie) && t) {
-       		transform.rotation = Quaternion.Euler(0,0,kat);
-		kat+=5;
-		licznikBartka += 0.3f;
-		gameWeapon.SetActive (true);
-	}
 
-	//if ((licznikBartka < wywolanie) && t && kat < 180) {
-       	//	transform.rotation = Quaternion.Euler(0,0,kat);
-	//	kat-=5;
-	//	licznikBartka += 0.1f;
-	//	gameWeapon.SetActive (true);
-	}
+        if (timeStamp <= Time.time)
+        {
+
+
+            if ((licznikBartka < wywolanie) && t)
+            {
+                transform.rotation = Quaternion.Euler(0, 0, kat);
+                kat += 5;
+                licznikBartka += 0.3f;
+                gameWeapon.SetActive(true);
+                
+            }
+           
+                
+        }
+        else
+            timeStamp = Time.time + 1.0f;
+
+        //if ((licznikBartka < wywolanie) && t && kat < 180) {
+        //	transform.rotation = Quaternion.Euler(0,0,kat);
+        //	kat-=5;
+        //	licznikBartka += 0.1f;
+        //	gameWeapon.SetActive (true);
+    }
 
 	private void OnCollisionEnter2D(Collision2D collision)
    	 {
@@ -57,5 +71,6 @@ public class mechanikaWalki : MonoBehaviour
 	wywolanie = 6.4f;
 	licznikBartka = 0.0f;
 	gameWeapon.SetActive (true);
-  }
+       
+    }
 }
