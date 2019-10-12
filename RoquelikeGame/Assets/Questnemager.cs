@@ -21,9 +21,9 @@ public class Questnemager : MonoBehaviour
         chosenQuests= new List<Quest>();
         for(int i = 0; i < 3; i++)
         {
-            var a = Random.Range(0, questList.Count);
+            int a = Random.Range(0, questList.Count);
             chosenQuests.Add(questList[a]);
-            questList.RemoveAt(a);
+            questList.RemoveAt(a); 
         }
     }
 
