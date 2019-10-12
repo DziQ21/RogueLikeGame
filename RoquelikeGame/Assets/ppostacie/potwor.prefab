@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3124235305510996155}
   - component: {fileID: 8351222621650040801}
   - component: {fileID: -6907870551977883822}
+  - component: {fileID: 5858748225308024646}
   m_Layer: 0
   m_Name: potwor
   m_TagString: Untagged
@@ -125,6 +126,8 @@ MonoBehaviour:
   deathevent:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!50 &-6907870551977883822
 Rigidbody2D:
   serializedVersion: 4
@@ -145,4 +148,20 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &5858748225308024646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6648219246438377694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4e033256f7547488bb70d77dad59b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 4
+  isTriggered: 0
+  speed: 0.2
+  skryptBroni: {fileID: 0}

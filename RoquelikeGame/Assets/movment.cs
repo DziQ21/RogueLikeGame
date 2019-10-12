@@ -8,9 +8,11 @@ public class movment : MonoBehaviour
     public float speed;
     float y;
     public mechanikaWalki skryptBroni=null;
+    public static movment instance = null;
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         if (skryptBroni ==null )
             setSkryptBroni();
     }
