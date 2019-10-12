@@ -28,6 +28,6 @@ public class HPScript : MonoBehaviour
 
         deathevent.Invoke();
         Questnemager.instance.GameObjectDied(this.gameObject);
-        Destroy(this.gameObject);
+        GetComponent<SpriteRenderer>().enabled = false;
     }
 }
