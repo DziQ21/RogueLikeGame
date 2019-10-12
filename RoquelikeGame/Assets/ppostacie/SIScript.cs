@@ -9,10 +9,10 @@ public class SIScript : MonoBehaviour
     public bool isTriggered=false;
     public float speed=0.2f;
     
-    public mechanikaWalki skryptBroni = null;
+    public GameObject bron = null;
     void Start()
     {
-        if (skryptBroni == null)
+        if (bron == null)
             setSkryptBroni();
     }
 
@@ -33,6 +33,11 @@ public class SIScript : MonoBehaviour
 
                 this.gameObject.GetComponent<Rigidbody2D>().MovePosition(new Vector2(x*speed + this.gameObject.transform.position.x, y*speed + this.gameObject.transform.position.y));
                 Debug.Log(x + " " + y);
+
+            }else
+            {
+                if (bron != null)
+                    bron.GetComponent<mechanikaWalki>().MakeAttack((-Mathf.Atan2(x,y) * Mathf.Rad2Deg + 270) % 360);
             }
             
         }

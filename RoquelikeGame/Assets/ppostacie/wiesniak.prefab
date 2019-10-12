@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4e033256f7547488bb70d77dad59b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 4
+  range: 6
   isTriggered: 0
   speed: 0.2
   skryptBroni: {fileID: 0}
