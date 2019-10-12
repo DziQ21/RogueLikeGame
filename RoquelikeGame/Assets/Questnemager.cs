@@ -15,6 +15,7 @@ public class Questnemager : MonoBehaviour
     {
         questList.AddRange(quests);
     }
+    
     private void Start()
     {
         instance = this;
