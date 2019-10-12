@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3614174656661831882}
   - component: {fileID: 6767708616685038121}
   - component: {fileID: -9186400655699618883}
+  - component: {fileID: 4678973880732877059}
   m_Layer: 0
   m_Name: bandyta
   m_TagString: Untagged
@@ -115,6 +116,8 @@ MonoBehaviour:
   deathevent:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!50 &-9186400655699618883
 Rigidbody2D:
   serializedVersion: 4
@@ -135,4 +138,20 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &4678973880732877059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221714696369474131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4e033256f7547488bb70d77dad59b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 4
+  isTriggered: 0
+  speed: 0.2
+  skryptBroni: {fileID: 0}
