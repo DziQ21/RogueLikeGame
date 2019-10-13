@@ -12,7 +12,6 @@ public class mechanikaWalki : MonoBehaviour
 	private float kat;
 	public GameObject gameWeapon;
 	public int DMG;
-    private float timeStamp = 1.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,11 +27,6 @@ public class mechanikaWalki : MonoBehaviour
             
         }
 
-
-        if (timeStamp <= Time.time)
-        {
-
-
             if ((licznikBartka < wywolanie) && t)
             {
                 transform.rotation = Quaternion.Euler(0, 0, kat);
@@ -43,10 +37,7 @@ public class mechanikaWalki : MonoBehaviour
             }
            
                 
-        }
-        else
-            timeStamp = Time.time + 1.0f;
-
+      
         //if ((licznikBartka < wywolanie) && t && kat < 180) {
         //	transform.rotation = Quaternion.Euler(0,0,kat);
         //	kat-=5;
