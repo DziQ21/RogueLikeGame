@@ -48,7 +48,6 @@ public class mechanikaWalki : MonoBehaviour
 	private void OnCollisionEnter2D(Collision2D collision)
    	 {
 		HPScript a = collision.gameObject.GetComponent<HPScript>();
-        Debug.Log("dup");
 		if (a != null) {
 			a.ReciveDamage(DMG);
 		}
