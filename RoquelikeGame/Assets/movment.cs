@@ -24,8 +24,8 @@ public class movment : MonoBehaviour
         
          y = Input.GetAxis("Vertical") * speed;
          x = Input.GetAxis("Horizontal") * speed;
-
-        GetComponent<Rigidbody2D>().MovePosition(new Vector2(x+ transform.position.x, y+ transform.position.y));
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(x , y ));
+        //GetComponent<Rigidbody2D>().MovePosition(new Vector2(x+ transform.position.x, y+ transform.position.y));
         if((Input.GetMouseButtonDown(1)) && (timeStamp <= Time.time))
         {
             timeStamp = Time.time + 1.0f;

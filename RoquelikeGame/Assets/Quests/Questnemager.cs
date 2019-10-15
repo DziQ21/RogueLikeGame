@@ -13,6 +13,7 @@ public class Questnemager : MonoBehaviour
     public static Questnemager instance=null;
     public static void AddQuests(List<Quest> quests)
     {
+        Debug.Log(quests.Count);
         questList.AddRange(quests);
     }
     
@@ -22,6 +23,7 @@ public class Questnemager : MonoBehaviour
         chosenQuests= new List<Quest>();
         for(int i = 0; i < 3; i++)
         {
+            
             int a = Random.Range(0, questList.Count);
             chosenQuests.Add(questList[a]);
             questList.RemoveAt(a); 

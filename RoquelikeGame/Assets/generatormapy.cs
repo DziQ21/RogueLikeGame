@@ -26,8 +26,11 @@ public class generatormapy : MonoBehaviour
                	 Instantiate(kraniecPoziomy, new Vector3(62.5f * j, (width-1) * 32.5f + 29.5f, 0f), Quaternion.identity);
 
                 int randomNumber = Random.Range(0, tablicaMap.Count);
-                Instantiate(tablicaMap[randomNumber], new Vector3(62.5f * j, 32.5f * i, 0f), Quaternion.identity);
-                Questnemager.AddQuests(tablicaMap[randomNumber].GetComponent<QuestList>().list);
+
+                GameObject buff = Instantiate(tablicaMap[randomNumber], new Vector3(62.5f * j, 32.5f * i, 0f), Quaternion.identity);
+                buff.GetComponent<QuestList>().Initialize();
+
+                Questnemager.AddQuests(buff.GetComponent<QuestList>().list);
                
 		if (i == height - 1)
                	 Instantiate(kraniecPoziomy, new Vector3(62.5f * j, -27f, 0f), Quaternion.identity);

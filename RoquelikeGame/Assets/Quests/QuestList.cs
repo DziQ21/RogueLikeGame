@@ -8,11 +8,14 @@ public class QuestList : MonoBehaviour
     public List<Quest> list;
     public List<GameObject> KillableAndDestuctable;
 
-    public void Start()
+    public void Initialize()
     {
+            Debug.Log("kurwaaaa");
         for(int i = 0; i < KillableAndDestuctable.Count; i++)
         {
-            list.Add((Quest)ScriptableObject.CreateInstance("Quest"));
+            Quest buff = (Quest)ScriptableObject.CreateInstance("Quest");
+            buff.target = KillableAndDestuctable[i];
+            list.Add(buff);
         }
     }
     // Update is called once per frame
