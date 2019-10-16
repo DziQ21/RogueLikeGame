@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 89
   m_Sprite: {fileID: 21300000, guid: 9f5f6515d8356bb4b8f85d610fa37f51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -117,8 +117,6 @@ MonoBehaviour:
   deathevent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!50 &2782929961515144900
 Rigidbody2D:
   serializedVersion: 4
@@ -167,11 +165,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pixil-frame-0 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4370848401899140507, guid: 634342094a2e0c3438052d8c3133e494,
-        type: 3}
-      propertyPath: DMG
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4370848401899140504, guid: 634342094a2e0c3438052d8c3133e494,
         type: 3}
@@ -227,6 +220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4370848401899140507, guid: 634342094a2e0c3438052d8c3133e494,
+        type: 3}
+      propertyPath: DMG
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 634342094a2e0c3438052d8c3133e494, type: 3}
