@@ -117,8 +117,6 @@ MonoBehaviour:
   deathevent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!50 &2782929961515144900
 Rigidbody2D:
   serializedVersion: 4
@@ -132,7 +130,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -154,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 6
   isTriggered: 0
-  speed: 0.2
+  speed: 40
   bron: {fileID: 2150849927311527505}
 --- !u!1001 &2409713779288587208
 PrefabInstance:
@@ -167,11 +165,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pixil-frame-0 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4370848401899140507, guid: 634342094a2e0c3438052d8c3133e494,
-        type: 3}
-      propertyPath: DMG
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4370848401899140504, guid: 634342094a2e0c3438052d8c3133e494,
         type: 3}
@@ -227,6 +220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4370848401899140507, guid: 634342094a2e0c3438052d8c3133e494,
+        type: 3}
+      propertyPath: DMG
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 634342094a2e0c3438052d8c3133e494, type: 3}

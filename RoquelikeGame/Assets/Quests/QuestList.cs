@@ -11,7 +11,7 @@ public class QuestList : MonoBehaviour
 
     public void Initialize()
     {
-            Debug.Log("kurwaaaa");
+
         for(int i = 0; i < KillableAndDestuctable.Count; i++)
         {
             Quest buff = (Quest)ScriptableObject.CreateInstance("Quest");

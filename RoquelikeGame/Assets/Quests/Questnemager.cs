@@ -15,7 +15,6 @@ public class Questnemager : MonoBehaviour
     public GameObject questMark;
     public static void AddQuests(List<Quest> quests)
     {
-        Debug.Log(quests.Count);
         questList.AddRange(quests);
     }
     
@@ -43,6 +42,7 @@ public class Questnemager : MonoBehaviour
 
             if (chosenQuests[i].target.Equals(g))
             {
+                Debug.Log("QuestZakonczony");
                 chosenQuests.RemoveAt(i);
                 questCompleteEvent.Invoke();
             }

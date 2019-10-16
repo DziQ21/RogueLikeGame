@@ -25,13 +25,13 @@ public class SIScript : MonoBehaviour
             float x= movment.instance.gameObject.transform.position.x - this.gameObject.transform.position.x;
             if(Mathf.Sqrt(x * x + y * y) > 4) { 
             
-                x =x/ Mathf.Sqrt(x * x + y * y);;
-                y =y/ Mathf.Sqrt(x * x + y * y);
-            
+                x =x*speed/ Mathf.Sqrt(x * x + y * y);
+                y =y*speed/ Mathf.Sqrt(x * x + y * y);
 
 
 
-                this.gameObject.GetComponent<Rigidbody2D>().MovePosition(new Vector2(x*speed + this.gameObject.transform.position.x, y*speed + this.gameObject.transform.position.y));
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(x, y));
+              
                
 
             }else
@@ -49,6 +49,6 @@ public class SIScript : MonoBehaviour
     }
     void setSkryptBroni()
     {
-        //throw new System.NotImplementedException();
+       
     }
 }
