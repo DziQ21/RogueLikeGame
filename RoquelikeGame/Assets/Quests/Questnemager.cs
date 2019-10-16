@@ -10,6 +10,7 @@ public class Questnemager : MonoBehaviour
     public static List<Quest> questList = new List<Quest>();
     [SerializeField]
     private List<Quest> chosenQuests;
+    private List<GameObject> Marks;
     public int numberOfQuests = 3;
     public static Questnemager instance=null;
     public GameObject questMark;
@@ -21,6 +22,7 @@ public class Questnemager : MonoBehaviour
     private void Start()
     {
         instance = this;
+        Marks = new List<GameObject>();
         chosenQuests= new List<Quest>();
         for(int i = 0; i < 3; i++)
         {
@@ -31,6 +33,7 @@ public class Questnemager : MonoBehaviour
            
             var buff = Instantiate(questMark);
             buff.GetComponent<QuestMarkScript>().setTarget(questList[a].target);
+            Marks.Add(buff);
             questList.RemoveAt(a); 
         }
     }
@@ -44,6 +47,8 @@ public class Questnemager : MonoBehaviour
             {
                 Debug.Log("QuestZakonczony");
                 chosenQuests.RemoveAt(i);
+                Destroy(Marks[i]);
+                Marks.RemoveAt(i);
                 questCompleteEvent.Invoke();
             }
         }
