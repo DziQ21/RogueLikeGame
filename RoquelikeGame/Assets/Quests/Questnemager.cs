@@ -8,9 +8,11 @@ public class Questnemager : MonoBehaviour
 {
     public UnityEvent questCompleteEvent;
     public static List<Quest> questList = new List<Quest>();
+    [SerializeField]
     private List<Quest> chosenQuests;
     public int numberOfQuests = 3;
     public static Questnemager instance=null;
+    public GameObject questMark;
     public static void AddQuests(List<Quest> quests)
     {
         Debug.Log(quests.Count);
@@ -26,6 +28,10 @@ public class Questnemager : MonoBehaviour
             
             int a = Random.Range(0, questList.Count);
             chosenQuests.Add(questList[a]);
+
+           
+            var buff = Instantiate(questMark);
+            buff.GetComponent<QuestMarkScript>().setTarget(questList[a].target);
             questList.RemoveAt(a); 
         }
     }

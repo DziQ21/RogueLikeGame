@@ -5,6 +5,7 @@ using UnityEngine;
 public class QuestList : MonoBehaviour
 {
     // Start is called before the first frame update
+    [HideInInspector]
     public List<Quest> list;
     public List<GameObject> KillableAndDestuctable;
 
