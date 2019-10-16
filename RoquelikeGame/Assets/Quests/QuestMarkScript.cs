@@ -6,8 +6,9 @@ public class QuestMarkScript : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject target;
+    [SerializeField]
     private float deltaY;
-    public float maxDelta=0.3f;
+    public float maxDelta=4f;
     public void setTarget(GameObject a)
     {
         target = a;
@@ -17,7 +18,7 @@ public class QuestMarkScript : MonoBehaviour
     void Update()
     {
         transform.position = target.transform.position;
-        deltaY = (deltaY + 0.2f);
+        deltaY = (deltaY + 0.1f);
         if (deltaY > maxDelta)
             deltaY -= maxDelta;
         // += (float)deltaY;
