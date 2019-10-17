@@ -9,10 +9,10 @@ public class SIScript : MonoBehaviour
     public bool isTriggered=false;
     public float speed=0.2f;
     
-    public GameObject bron = null;
+    public GameObject weapon = null;
     void Start()
     {
-        if (bron == null)
+        if (weapon == null)
             setSkryptBroni();
     }
 
@@ -36,8 +36,8 @@ public class SIScript : MonoBehaviour
 
             }else
             {
-                if (bron != null)
-                    bron.GetComponent<mechanikaWalki>().MakeAttack((-Mathf.Atan2(x,y) * Mathf.Rad2Deg + 180) % 360);
+                if (weapon != null)
+                    weapon.GetComponent<WeaponI>().MakeAttack((-Mathf.Atan2(x,y) * Mathf.Rad2Deg + 180) % 360);
             }
             
         }
@@ -49,6 +49,10 @@ public class SIScript : MonoBehaviour
     }
     void setSkryptBroni()
     {
-       
+       foreach(Transform child in transform)
+       {
+            if (child.gameObject.GetComponent<WeaponI>()!=null)
+                weapon = child.gameObject;
+       }
     }
 }

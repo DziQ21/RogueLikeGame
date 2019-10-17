@@ -63,4 +63,9 @@ public class mechanikaWalki : MonoBehaviour,WeaponI
 	gameWeapon.SetActive (true);
        
     }
+
+    public bool HasOwner()
+    {
+        return transform.parent != null;
+    }
 }

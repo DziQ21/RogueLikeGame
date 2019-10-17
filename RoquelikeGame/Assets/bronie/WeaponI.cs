@@ -9,4 +9,5 @@ public interface WeaponI
 
     // Update is called once per frame
     void MakeAttack(float v);
+    bool HasOwner();
 }
