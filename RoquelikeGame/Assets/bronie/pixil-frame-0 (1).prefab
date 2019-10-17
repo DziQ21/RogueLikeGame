@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4370848401899140505}
   m_LocalRotation: {x: 0, y: 0, z: 0.76604444, w: 0.64278764}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.35, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.35, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04e5b748e15da74d8fe994b205edd0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wywolanie: 5
+  wywolanie: 6.4
   licznikBartka: 0
   gameWeapon: {fileID: 4370848401899140505}
   DMG: 0
