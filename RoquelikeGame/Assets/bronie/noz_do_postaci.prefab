@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04e5b748e15da74d8fe994b205edd0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wywolanie: 5
+  wywolanie: 6.4
   licznikBartka: 0
   gameWeapon: {fileID: 5658020700143512389}
   DMG: 5
