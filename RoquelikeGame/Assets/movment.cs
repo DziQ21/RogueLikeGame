@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -35,14 +36,14 @@ public class movment : MonoBehaviour
             Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
             weapon.GetComponent<WeaponI>().MakeAttack((-Mathf.Atan2(playerPosition.x - mousePosition.x, playerPosition.y - mousePosition.y) * Mathf.Rad2Deg  + 270) % 360);
         }
-        if (Input.GetKeyDown(KeyCode.E)) ;
+        if (Input.GetKeyDown(KeyCode.E)) 
         {
-        
+            throw new NotImplementedException();
         }
     }
     
 
-    void setSkryptBroni()
+    public void setSkryptBroni()
     {
         foreach (Transform child in transform)
         {
