@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class mechanikaWalki : MonoBehaviour
+public class mechanikaWalki : MonoBehaviour,WeaponI
 {
 
 	public float wywolanie; // = 2.5f;
@@ -54,7 +54,7 @@ public class mechanikaWalki : MonoBehaviour
 	}
     
 
-    internal void MakeAttack(float v)
+    public void MakeAttack(float v)
    {
        	kat = v + 195;
 	t = true;
