@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface WeaponI 
+public class InteractionMenager : MonoBehaviour
 {
     // Start is called before the first frame update
-
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
-    void MakeAttack(float v);
-    bool HasOwner();
-    void Drop();
+    void Update()
+    {
+        
+    }
 }

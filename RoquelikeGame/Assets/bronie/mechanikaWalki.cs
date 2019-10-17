@@ -12,12 +12,13 @@ public class mechanikaWalki : MonoBehaviour,WeaponI
 	private float kat;
 	public GameObject gameWeapon;
 	public int DMG;
+    
 
     // Start is called before the first frame update
     void Start()
     {
 	  gameWeapon.SetActive (false);
- }
+    }
 
     // Update is called once per frame
     void Update()
@@ -37,7 +38,8 @@ public class mechanikaWalki : MonoBehaviour,WeaponI
             }
            
                 
-      
+        //Bartek napraw ten syf po to mamy gita by nie robić takiego gówna pozdro z fartem od pawełka
+
         //if ((licznikBartka < wywolanie) && t && kat < 180) {
         //	transform.rotation = Quaternion.Euler(0,0,kat);
         //	kat-=5;
@@ -67,5 +69,10 @@ public class mechanikaWalki : MonoBehaviour,WeaponI
     public bool HasOwner()
     {
         return transform.parent != null;
+    }
+
+    public void Drop()
+    {
+        transform.parent = null;
     }
 }
