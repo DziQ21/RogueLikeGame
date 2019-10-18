@@ -31,7 +31,7 @@ public class movment : MonoBehaviour
         GetComponent<Rigidbody2D>().AddForce(new Vector2(x , y ));
         if((Input.GetMouseButtonDown(1)) && (timeStamp <= Time.time))
         {
-            timeStamp = Time.time + 1.0f;
+            timeStamp = Time.time + 0.7f;
             Vector2 playerPosition = new Vector2(Screen.width/2, Screen.height/2);
             Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
             weapon.GetComponent<WeaponI>().MakeAttack((-Mathf.Atan2(playerPosition.x - mousePosition.x, playerPosition.y - mousePosition.y) * Mathf.Rad2Deg  + 270) % 360);

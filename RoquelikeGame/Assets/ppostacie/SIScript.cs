@@ -8,6 +8,7 @@ public class SIScript : MonoBehaviour
     public float range = 6;
     public bool isTriggered=false;
     public float speed=0.2f;
+    private float timeStampNPC;
     
     public GameObject weapon = null;
     void Start()
@@ -36,8 +37,11 @@ public class SIScript : MonoBehaviour
 
             }else
             {
-                if (weapon != null)
-                    weapon.GetComponent<WeaponI>().MakeAttack((-Mathf.Atan2(x,y) * Mathf.Rad2Deg + 180) % 360);
+                if ((weapon != null) && (timeStampNPC <= Time.time))
+                {
+                    timeStampNPC = Time.time + 1.6f;
+                    weapon.GetComponent<WeaponI>().MakeAttack((-Mathf.Atan2(x, y) * Mathf.Rad2Deg + 180) % 360);
+                }
             }
             
         }
