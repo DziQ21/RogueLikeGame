@@ -22,4 +22,16 @@ public class menuButtons : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    public void menuRestart()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void openControlsPause()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void openPause()
+    {
+        SceneManager.LoadScene(3);
+    }
 }
