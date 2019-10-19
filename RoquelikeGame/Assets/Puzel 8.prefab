@@ -82,7 +82,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list: []
-  KillableAndDestuctable: []
+  KillableAndDestuctable:
+  - {fileID: 5609276574539812490}
+  - {fileID: 1136464150158680043}
+  - {fileID: 4929460497111246157}
+  - {fileID: 4196405380275596820}
+  - {fileID: 7294145155027016822}
+  - {fileID: 1183541371085337985}
 --- !u!1001 &670494759581710514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -158,6 +164,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 670494759581710514}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1136464150158680043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 471641499424810841, guid: 77a8bd1ecdda97043b895ac3d1c92414,
+    type: 3}
+  m_PrefabInstance: {fileID: 670494759581710514}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &924074720308396218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -165,6 +177,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (13)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -220,11 +237,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (13)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &110029900337988575 stripped
@@ -240,6 +252,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (18)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -294,11 +311,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (18)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
@@ -377,6 +389,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa4914d89516e414592af7b7f5620fea, type: 3}
+--- !u!1 &5609276574539812490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6691607815703557799, guid: aa4914d89516e414592af7b7f5620fea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1226521204628748333}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5511167743202537277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6737072048554432272, guid: aa4914d89516e414592af7b7f5620fea,
@@ -390,6 +408,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -445,11 +468,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (10)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &1640274640191246482 stripped
@@ -465,6 +483,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -530,11 +553,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_DrawMode
@@ -565,6 +583,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -630,11 +653,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_DrawMode
@@ -665,6 +683,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -730,11 +753,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_DrawMode
@@ -765,6 +783,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (20)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -820,11 +843,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (20)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &3287565992423570066 stripped
@@ -840,6 +858,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -895,11 +918,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_Size.x
@@ -940,6 +958,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (16)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -995,11 +1018,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (16)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &3389903818327835794 stripped
@@ -1015,6 +1033,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1070,11 +1093,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (12)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &3457571732405929706 stripped
@@ -1090,6 +1108,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1155,11 +1178,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_DrawMode
@@ -1190,6 +1208,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1245,11 +1268,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_Size.x
@@ -1300,6 +1318,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1355,11 +1378,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (9)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &4532086480024661305 stripped
@@ -1375,6 +1393,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7351552739312936407, guid: eb4242d2b2be9424382e5ae92912f3f3,
+        type: 3}
+      propertyPath: m_Name
+      value: mostek (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5942641036771192986, guid: eb4242d2b2be9424382e5ae92912f3f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1429,11 +1452,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7351552739312936407, guid: eb4242d2b2be9424382e5ae92912f3f3,
-        type: 3}
-      propertyPath: m_Name
-      value: mostek (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6010746374109275770, guid: eb4242d2b2be9424382e5ae92912f3f3,
         type: 3}
@@ -1533,6 +1551,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4375030452894894413}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4196405380275596820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 471641499424810841, guid: 77a8bd1ecdda97043b895ac3d1c92414,
+    type: 3}
+  m_PrefabInstance: {fileID: 4375030452894894413}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4776164297622684715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1540,6 +1564,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1595,11 +1624,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (15)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &5700508799497127758 stripped
@@ -1615,6 +1639,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1679,11 +1708,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (9)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -1777,6 +1801,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a8bd1ecdda97043b895ac3d1c92414, type: 3}
+--- !u!1 &4929460497111246157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 471641499424810841, guid: 77a8bd1ecdda97043b895ac3d1c92414,
+    type: 3}
+  m_PrefabInstance: {fileID: 4819816171655037460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9127764789806183507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4345754780348036679, guid: 77a8bd1ecdda97043b895ac3d1c92414,
@@ -1790,6 +1820,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1855,11 +1890,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_DrawMode
@@ -1890,6 +1920,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1945,11 +1980,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (6)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &5350719907498075725 stripped
@@ -1965,6 +1995,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7351552739312936407, guid: eb4242d2b2be9424382e5ae92912f3f3,
+        type: 3}
+      propertyPath: m_Name
+      value: mostek
+      objectReference: {fileID: 0}
     - target: {fileID: 5942641036771192986, guid: eb4242d2b2be9424382e5ae92912f3f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2019,11 +2054,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7351552739312936407, guid: eb4242d2b2be9424382e5ae92912f3f3,
-        type: 3}
-      propertyPath: m_Name
-      value: mostek
       objectReference: {fileID: 0}
     - target: {fileID: 6010746374109275770, guid: eb4242d2b2be9424382e5ae92912f3f3,
         type: 3}
@@ -2117,6 +2147,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a170ae36ed8c40f4dbc6dbdb131d7a13, type: 3}
+--- !u!1 &1183541371085337985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6691607815703557799, guid: a170ae36ed8c40f4dbc6dbdb131d7a13,
+    type: 3}
+  m_PrefabInstance: {fileID: 5526362328321868582}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1283374249778943030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6737072048554432272, guid: a170ae36ed8c40f4dbc6dbdb131d7a13,
@@ -2130,6 +2166,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2195,11 +2236,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_DrawMode
@@ -2230,6 +2266,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (21)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2285,11 +2326,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (21)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &4649800160705048285 stripped
@@ -2305,6 +2341,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (19)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2360,11 +2401,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (19)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &6440907669278453473 stripped
@@ -2380,6 +2416,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2435,11 +2476,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (8)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &6608469467409002074 stripped
@@ -2455,6 +2491,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2510,11 +2551,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_Size.x
@@ -2550,6 +2586,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2615,11 +2656,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_DrawMode
@@ -2650,6 +2686,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2705,11 +2746,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &5877136915265428234 stripped
@@ -2725,6 +2761,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
+        type: 3}
+      propertyPath: m_Name
+      value: droga-pixil (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 5504394708569671500, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2789,11 +2830,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2643542307485794560, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
-        type: 3}
-      propertyPath: m_Name
-      value: droga-pixil (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8988212055696838509, guid: e0b27cac787d8ff4d8faabeaf2ac9de1,
         type: 3}
@@ -2887,6 +2923,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a8bd1ecdda97043b895ac3d1c92414, type: 3}
+--- !u!1 &7294145155027016822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 471641499424810841, guid: 77a8bd1ecdda97043b895ac3d1c92414,
+    type: 3}
+  m_PrefabInstance: {fileID: 7183691306618190639}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6917144044230430056 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4345754780348036679, guid: 77a8bd1ecdda97043b895ac3d1c92414,
@@ -2900,6 +2942,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
+        type: 3}
+      propertyPath: m_Name
+      value: rzeka (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 6336444607132718091, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2955,11 +3002,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1328855480744862941, guid: ffb2e4fc723cf904da66e93125442315,
-        type: 3}
-      propertyPath: m_Name
-      value: rzeka (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 1200756382506037981, guid: ffb2e4fc723cf904da66e93125442315,
         type: 3}
       propertyPath: m_Size.x
@@ -3010,6 +3052,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (14)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3065,11 +3112,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (14)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &9022061412024784995 stripped
@@ -3085,6 +3127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (22)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3140,11 +3187,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (22)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
 --- !u!4 &9054300135701894122 stripped
@@ -3160,6 +3202,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7219391870688408407, guid: 0ca55997812d29644ad4af3e23025eb7,
+        type: 3}
+      propertyPath: m_Name
+      value: trawa-pixil
+      objectReference: {fileID: 0}
     - target: {fileID: 3316169263144017388, guid: 0ca55997812d29644ad4af3e23025eb7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3215,11 +3262,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7219391870688408407, guid: 0ca55997812d29644ad4af3e23025eb7,
-        type: 3}
-      propertyPath: m_Name
-      value: trawa-pixil
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ca55997812d29644ad4af3e23025eb7, type: 3}
 --- !u!4 &6872513997649756277 stripped
@@ -3235,6 +3277,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7722264038328402976}
     m_Modifications:
+    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
+        type: 3}
+      propertyPath: m_Name
+      value: drzewo (17)
+      objectReference: {fileID: 0}
     - target: {fileID: 960426239086543717, guid: 8a9a36e96d3eea44e90b65f5a4398916,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3289,11 +3336,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334135888126842389, guid: 8a9a36e96d3eea44e90b65f5a4398916,
-        type: 3}
-      propertyPath: m_Name
-      value: drzewo (17)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9a36e96d3eea44e90b65f5a4398916, type: 3}
