@@ -32,12 +32,16 @@ public class InteractionMenager : MonoBehaviour
             Debug.Log(buff.GetInteractionDecription(),buff.gameObject);
         }
     }
-    void TrytoInteract(GameObject g)
+    public void TrytoInteract(GameObject g)
     {
         InteractiveI buff= GetClosestThatCanInteract(g);
         if (buff != null)
         {
             buff.Interact(g);
+        }
+        else
+        {
+            Debug.Log("nie mam jak interaktować");
         }
 
     }

@@ -38,7 +38,7 @@ public class movment : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E)) 
         {
-            throw new NotImplementedException();
+            InteractionMenager.instance.TrytoInteract(this.gameObject);
         }
     }
     
