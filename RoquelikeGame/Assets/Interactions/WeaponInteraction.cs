@@ -2,21 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponInteraction : MonoBehaviour,InteractiveI
+public class WeaponInteraction : InteractiveI
 {
     public int RangeOfinteraction;
     public string InteractionDescription;
-    public string GetInyeractionDecription()
+
+    public override bool CanInteract()
+    {
+        return !gameObject.GetComponent<mechanikaWalki>().HasOwner();
+    }
+
+    public override string GetInteractionDecription()
     {
         return InteractionDescription;
     }
 
-    public int GetRangeOfInteraction()
+    public override int GetRangeOfInteraction()
     {
         return RangeOfinteraction;
     }
-
-    public void Interact(GameObject caller)
+    
+    public override void Interact(GameObject caller)
     {
         if (!gameObject.GetComponent<mechanikaWalki>().HasOwner())
         {
@@ -26,15 +32,7 @@ public class WeaponInteraction : MonoBehaviour,InteractiveI
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // Start is called before the first frame update
+    
 }
