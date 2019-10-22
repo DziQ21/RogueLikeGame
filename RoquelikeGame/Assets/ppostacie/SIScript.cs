@@ -27,8 +27,8 @@ public class SIScript : MonoBehaviour
 
             if(Mathf.Sqrt(x * x + y * y) > 4) { 
             
-                x =x*speed* Time.fixedDeltaTime / Mathf.Sqrt(x * x + y * y);
-                y =y*speed* Time.fixedDeltaTime / Mathf.Sqrt(x * x + y * y);
+                x =x*speed* Time.fixedDeltaTime *30/ Mathf.Sqrt(x * x + y * y);
+                y =y*speed* Time.fixedDeltaTime*30 / Mathf.Sqrt(x * x + y * y);
 
 
 

@@ -26,8 +26,8 @@ public class movment : MonoBehaviour
     void Update()
     {
         
-         y = Input.GetAxis("Vertical") * speed*Time.fixedDeltaTime;
-         x = Input.GetAxis("Horizontal") * speed*Time.fixedDeltaTime;
+         y = Input.GetAxis("Vertical")*30 * speed*Time.fixedDeltaTime;
+         x = Input.GetAxis("Horizontal")*30 * speed*Time.fixedDeltaTime;
         GetComponent<Rigidbody2D>().AddForce(new Vector2(x , y ));
         if((Input.GetMouseButtonDown(1)) && (timeStamp <= Time.time))
         {

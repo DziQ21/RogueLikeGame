@@ -18,7 +18,7 @@ public class QuestMarkScript : MonoBehaviour
     void Update()
     {
         transform.position = target.transform.position;
-        deltaY = (deltaY + 0.1f);
+        deltaY = (deltaY + 0.1f* Time.fixedDeltaTime*30);
         if (deltaY > maxDelta)
             deltaY -= maxDelta;
         // += (float)deltaY;
