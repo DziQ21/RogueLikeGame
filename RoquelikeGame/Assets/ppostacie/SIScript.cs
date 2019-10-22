@@ -24,10 +24,11 @@ public class SIScript : MonoBehaviour
         {
             float y= movment.instance.gameObject.transform.position.y-this.gameObject.transform.position.y; 
             float x= movment.instance.gameObject.transform.position.x - this.gameObject.transform.position.x;
+
             if(Mathf.Sqrt(x * x + y * y) > 4) { 
             
-                x =x*speed/ Mathf.Sqrt(x * x + y * y);
-                y =y*speed/ Mathf.Sqrt(x * x + y * y);
+                x =x*speed* Time.fixedDeltaTime / Mathf.Sqrt(x * x + y * y);
+                y =y*speed* Time.fixedDeltaTime / Mathf.Sqrt(x * x + y * y);
 
 
 
