@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class menuButtons : MonoBehaviour
 {
+    public float iloscHp;
    public void playGame()
     {
         SceneManager.LoadScene(1);
@@ -33,5 +34,20 @@ public class menuButtons : MonoBehaviour
     public void openPause()
     {
         SceneManager.LoadScene(3);
+    }
+    public void openWelcome()
+    {
+        SceneManager.LoadScene(6);
+    }
+    void Update()
+    {
+        GameObject rycerz = GameObject.Find("rycerz");
+        HPScript hpscript = rycerz.GetComponent<HPScript>();
+        iloscHp = (float)hpscript.hP;
+   
+        if (iloscHp < 0)
+        {
+            SceneManager.LoadScene(5);
+        }
     }
 }
