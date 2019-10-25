@@ -39,6 +39,10 @@ public class menuButtons : MonoBehaviour
     {
         SceneManager.LoadScene(6);
     }
+    public void openCredits()
+    {
+        SceneManager.LoadScene(7);
+    }
     void Update()
     {
         GameObject rycerz = GameObject.Find("rycerz");
